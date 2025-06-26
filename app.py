@@ -19,7 +19,7 @@ if "current_id" not in st.session_state:
 current_row = id_map.get(st.session_state.current_id)
 
 # Main UI
-st.title("📞 Interactive Sales Conversation Flow")
+st.title("Interactive Sales Conversation Flow")
 
 if current_row is not None:
     st.markdown(f"### {current_row['Message']}")
@@ -45,7 +45,5 @@ if current_row is not None:
         st.rerun()
 
 else:
-    st.error("This conversation step could not be found. Please restart.")
-    if st.button("Restart"):
-        st.session_state.current_id = "Greeting"
-        st.rerun()
+    st.session_state.current_id = "Greeting"
+    st.rerun()
