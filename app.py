@@ -24,7 +24,7 @@ current_row = id_map.get(st.session_state.current_id)
 st.title("Plumber Script")
 
 if current_row is not None:
-    st.markdown(f"##{st.session_state.current_id}")
+    st.markdown(f"## '{st.session_state.current_id}'")
     st.markdown(f"### {current_row['Message']}")
 
     col1, col2 = st.columns(2)
