@@ -1,10 +1,10 @@
 ID,Message,Option 1 Text,Option 1 Link,Option 2 Text,Option 2 Link
 Greeting,"""Hey, doing a quick check-in with plumbers about how they’re handling material sourcing and supply. Could I speak with someone in charge of purchasing?",Purchaser,Purchaser Available,Purchaser not available,Purchaser Not Available
 Purchaser Not Available,When would be a good time to get a hold of them?,Back to Greeting,Greeting,,
-Purchaser Available,"“We are a supply wholesaler and move over 20M in inventory a year"" ""Are you satisfied with your current vendor setup?""",We are NOT satisfied,Not Satisfied,We are satisfied,Satisfied
+Purchaser Available,"“We are a wholesale supplier and move over 20M in inventory a year"" ""Are you satisfied with your current supplier setup?""",We are NOT satisfied,Not Satisfied,We are satisfied,Satisfied
 Not Satisfied,"""you’re not alone. A lot of the plumbers we work with were running into delays, price hikes, or poor communication. That’s actually why we’ve been stepping in as a more reliable supplier""  “Out of curiosity, what kind of materials are giving you the most trouble right now?”","Pumps, pipe, fitting etc..",Close Sale,Nothing at the moment,Establish Reach
-Satisfied,"“If your go-to supplier was out of stock, do you have a backup supplier?”",I do,Supplier And Back Up,Not really,No Back Up
-No Back Up,"“I wouldn’t expect you to switch anything right now. But if your vendor ever runs short on stock or raises prices, it’d be good to already have us set up as a fallback.”",Sounds good,Curiousity,,
+Satisfied,"“If there were better prices and lead times out there, would that interest your business?”",It would!,Supplier And Back Up,No that wouldn't,No Back Up
+No Back Up,"“Well if your supplier ever runs short on stock or raises prices, this is my direct phone number and we'd love to be your fallback.”",Sounds good,Curiousity,,
 Curiousity,"""Are there any materials you need right now for inventory or an upcoming project?""",Yes,Close Sale,No,Establish Reach
 Supplier And Back Up,"""No worries, Do you mind if i reach out in the 3-4 weeks to see if anything changed?",End call back to Greeting,Greeting,,
 Estabilish Reach,"""No worries, Do you mind if i reach out in the 3-4 weeks to see if anything changed?",Back to Greeting,Greeting,,
