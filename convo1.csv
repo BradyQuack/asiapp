@@ -7,5 +7,5 @@ Satisfied,"“If there were better prices and lead times out there, would that i
 No Back Up,"“Well if your supplier ever runs short on stock or raises prices, this is my direct phone number and we'd love to be your fallback.”",Sounds good,Curiousity,,
 Curiousity,"""Are there any materials you need right now for inventory or an upcoming project?""",Yes,Close Sale,No,Establish Reach
 Supplier And Back Up,"""No worries, Do you mind if i reach out in the 3-4 weeks to see if anything changed?",End call back to Greeting,Greeting,,
-Estabilish Reach,"""No worries, Do you mind if i reach out in the 3-4 weeks to see if anything changed?",Back to Greeting,Greeting,,
+Establish Reach,"""No worries, Do you mind if i reach out in the 3-4 weeks to see if anything changed?",Back to Greeting,Greeting,,
 Close Sale,"""Awesome, tell me what materials you need and I'll get the pricing""",Get contact info and work on pricing,Greeting,,
