@@ -30,22 +30,22 @@ if current_row is not None:
     if pd.notna(current_row["Option 1 Text"]) and pd.notna(current_row["Option 1 Link"]):
         if col1.button(current_row["Option 1 Text"]):
             st.session_state.current_id = current_row["Option 1 Link"]
-            st.experimental_rerun()
+            st.rerun()
 
     # Option 2 button
     if pd.notna(current_row["Option 2 Text"]) and pd.notna(current_row["Option 2 Link"]):
         if col2.button(current_row["Option 2 Text"]):
             st.session_state.current_id = current_row["Option 2 Link"]
-            st.experimental_rerun()
+            st.rerun()
 
     # Divider + Reset
     st.divider()
     if st.button("🔁 Restart Conversation"):
         st.session_state.current_id = "Greeting"
-        st.experimental_rerun()
+        st.rerun()
 
 else:
     st.error("This conversation step could not be found. Please restart.")
     if st.button("Restart"):
         st.session_state.current_id = "Greeting"
-        st.experimental_rerun()
+        st.rerun()
