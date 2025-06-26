@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(page_title="Sales Conversation Flow", layout="wide")
+
 # Load CSV file with caching
 @st.cache_data
 def load_data():
